@@ -8,8 +8,11 @@ const app = express();
 
 // Middleware
 app.use(bodyParser.json());
-
-// Routes
+const basicRoutes = async(req,res)=>{ 
+  res.send('welcome to cointab');
+}
+// Routes 
+app.use('/',basicRoutes);
 app.use('/users', userRoutes);
 app.use('/posts', postRoutes);
 
