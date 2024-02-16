@@ -1,0 +1,10 @@
+{
+    "development": {
+      "username": "root",
+      "password": "bhavya22",
+      "database": "cointab",
+      "host": "localhost",
+      "dialect": "mysql"
+    }
+  }
+  
